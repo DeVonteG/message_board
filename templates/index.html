@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock title %}
+
+{% block content %}
+<h1>Home</h1>
+<p>Success! You've reached the home page.</p>
+<br>
+
+    <div class="steps">
+        <p>To access the message board, Please follow these steps</p>
+            <ol>
+                <li>Click the <span><i class="fa-solid fa-bars"></i></span> bars in the top left corner </li>
+                <br>
+                <ul>
+                    <li>Home</li>
+                    <li>Posts</li>
+                    <li>Create Post are available</li>
+                </ul>
+                <br>
+                <li>Clicking on 'Posts' will take you to a list of posts available </li>
+                <br>
+                <li>Clicking on 'Create Post' will bring up a form to fill out to submit a message post</li>
+            </ol>
+    </div>
+
+{% endblock content %}
